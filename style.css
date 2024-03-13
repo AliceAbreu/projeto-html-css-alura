@@ -9,9 +9,6 @@ body {
     height: 100vh;
     box-sizing: border-box;
     background-color: black;
-    color: #F6F6F6;
-    font-family: 'Krona One', sans-serif;
-    font-size: 1.2rem;
 }
 
 .titulo-blog {
@@ -22,18 +19,31 @@ body {
     color: #22D4FD;
 }
 
-.texto-apresentacao {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-}
-
 .texto-destaque {
-    color: darkblue;
+    color: rgb(46, 133, 214);
 }
 
 .apresentacao {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 10%;
     height: 300px;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+    color: #F6F6F6;
+}
+
+.apresentacao__conteudo__texto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #F6F6F6;
 }
