@@ -3,18 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
+    /*height: 100vh;*/
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
-}
-
-.titulo-blog {
-    color: #0077b6;
 }
 
 .titulo-destaque {
@@ -26,11 +18,10 @@ body {
 }
 
 .apresentacao {
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 15%;
-    height: 300px;
 }
 
 .apresentacao__conteudo {
@@ -89,4 +80,14 @@ body {
 .apresentacao__links__link:hover {
     background-color: #272727;
     cursor: pointer;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
