@@ -1,1 +1,9 @@
-Projeto HTML e CSS - Alura
+Olá, Bem vindo ao meu projeto de portfólio.
+
+## Ferramentas utilizadas:
+
+* HTML
+
+* CSS
+
+* Flex-box
